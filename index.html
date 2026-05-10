@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Travel</title>
+    <link rel="preload" as="image" href="assets/hero-background-smooth.webp" type="image/webp" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css?v=25" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Flash Travel home">
+        <img src="assets/flash-logo.svg?v=4" alt="Flash" />
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#tours">Tours</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+
+      <button class="icon-button" type="button" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m16.5 16.5 4 4"></path>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="Travel hero section">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Adventure Tours</p>
+          <h1>Time To<br />Travel</h1>
+          <p class="hero-copy">
+            The best time to visit Rocky Mountain National Park is from June to
+            September when the snow is melted and the trails are open.
+          </p>
+          <a class="outline-button" href="#tours">
+            Explore Tours
+            <span aria-hidden="true">-></span>
+          </a>
+        </div>
+
+        <div class="hero-index" aria-label="Featured slides">
+          <span class="is-active">01</span>
+          <span>02</span>
+          <span>03</span>
+          <span>04</span>
+          <span>05</span>
+        </div>
+
+        <div class="feature-strip" aria-label="Travel highlights">
+          <article>
+            <span class="feature-icon">
+              <img src="assets/feature-route.svg?v=3" alt="" aria-hidden="true" />
+            </span>
+            <p>The Crown Jewel of Rocky Mountain NP, Longs Peak is coveted.</p>
+          </article>
+          <article>
+            <span class="feature-icon">
+              <img src="assets/feature-summit.svg?v=3" alt="" aria-hidden="true" />
+            </span>
+            <p>The Keyhole route starts around treeline and climbs fast.</p>
+          </article>
+          <article>
+            <span class="feature-icon">
+              <img src="assets/feature-binoculars.svg?v=3" alt="" aria-hidden="true" />
+            </span>
+            <p>Historic routes offer a direct line toward the summit.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="tours" id="tours">
+        <div class="section-heading">
+          <p class="eyebrow">Popular Tours</p>
+          <h2>There will be a small title here.</h2>
+        </div>
+
+        <div class="tour-grid">
+          <article class="tour-card tour-card-1">
+            <div>
+              <h3>Tour 1</h3>
+              <p>There will be a small title here.</p>
+            </div>
+          </article>
+          <article class="tour-card tour-card-2 is-selected">
+            <div>
+              <h3>Tour 2</h3>
+              <p>There will be a small title here.</p>
+            </div>
+          </article>
+          <article class="tour-card tour-card-3">
+            <div>
+              <h3>Tour 3</h3>
+              <p>There will be a small title here.</p>
+            </div>
+          </article>
+          <article class="tour-card tour-card-4">
+            <div>
+              <h3>Tour 4</h3>
+              <p>There will be a small title here.</p>
+            </div>
+          </article>
+        </div>
+
+        <a class="outline-button centered" href="#gallery">
+          View All Tours
+          <span aria-hidden="true">-></span>
+        </a>
+      </section>
+
+      <section class="discover" id="gallery">
+        <div class="discover-bg" aria-hidden="true"></div>
+        <div class="discover-content">
+          <p class="eyebrow">Watch Story</p>
+          <h2>Discover The<br />World In A<br />New Way</h2>
+          <a class="video-link" href="#reviews" aria-label="Watch the video">
+            <span class="play-button" aria-hidden="true"></span>
+            Watch The Video
+          </a>
+          <blockquote>
+            "Have you ever heard an avalanche roar in the mountains? Just after
+            the avalanche roars, and there is absolute silence."
+            <cite>- Hamid Manzakini</cite>
+          </blockquote>
+        </div>
+
+        <div class="video-grid" aria-label="Travel video gallery">
+          <a class="video-card video-card-wide" href="#reviews">
+            <span class="play-button" aria-hidden="true"></span>
+          </a>
+          <a class="video-card video-card-1" href="#reviews">
+            <span class="play-button" aria-hidden="true"></span>
+          </a>
+          <a class="video-card video-card-2" href="#reviews">
+            <span class="play-button" aria-hidden="true"></span>
+          </a>
+          <a class="video-card video-card-3" href="#reviews">
+            <span class="play-button" aria-hidden="true"></span>
+          </a>
+          <a class="video-card video-card-4" href="#reviews">
+            <span class="play-button" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contacts">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+          <circle cx="12" cy="12" r="3.6"></circle>
+          <circle cx="17" cy="7" r="1"></circle>
+        </svg>
+      </a>
+      <a href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14 8h3V4h-3c-3.1 0-5 1.9-5 5v3H6v4h3v4h4v-4h3.2l.8-4h-4V9c0-.7.3-1 1-1Z"></path>
+        </svg>
+      </a>
+      <a href="#" aria-label="Telegram">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 4 3.8 10.7c-1.1.4-1.1 1.9.1 2.2l4.3 1.3 1.7 5.1c.3.9 1.5 1.1 2.1.4l2.4-2.8 4.4 3.1c.8.6 1.9.1 2.1-.9L23 5.4c.2-1-1-1.8-2-1.4Z"></path>
+          <path d="M8.4 14.1 18.8 7.6 11 16.8"></path>
+        </svg>
+      </a>
+      <a href="#" aria-label="Twitter">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 4h4.8l3.7 5.2L17 4h3.4l-6.2 7.1L21 20h-4.8l-4.1-5.8L7 20H3.6l6.8-7.8L4 4Z"></path>
+        </svg>
+      </a>
+    </footer>
+  </body>
+</html>

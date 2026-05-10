@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 136" role="img" aria-labelledby="title desc">
+  <title id="title">Flash Travel logo</title>
+  <desc id="desc">Premium clean mountain logo with FLASH wordmark.</desc>
+  <defs>
+    <linearGradient id="cyan" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6ffcff"/>
+      <stop offset="1" stop-color="#22d8dc"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 68 91 18l40 40 24-27 27 28 43-43 61 52" stroke="#fff" stroke-width="9"/>
+    <path d="M93 70 123 38l14 25 23-17 31 27" stroke="#fff" stroke-width="7" opacity=".95"/>
+    <path d="M202 70 230 39l20 22 32 11" stroke="#fff" stroke-width="7" opacity=".95"/>
+    <path d="M45 84h230" stroke="url(#cyan)" stroke-width="6"/>
+  </g>
+  <text x="160" y="122" text-anchor="middle" fill="#fff" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="43" font-weight="900" letter-spacing="8">FLASH</text>
+</svg>
