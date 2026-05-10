@@ -40,7 +40,7 @@ body {
   margin: 0;
   color: var(--text);
   background: #010303;
-  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Montserrat", "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 
 body::selection {
@@ -62,9 +62,9 @@ a {
   grid-template-columns: auto 1fr auto;
   gap: 2rem;
   align-items: center;
-  width: min(100% - 3rem, 1030px);
-  padding: 1.7rem 0 0.9rem;
-  border-bottom: 1px solid var(--line);
+  width: min(100% - 3rem, 1080px);
+  padding: 1.25rem 0 0.72rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   transform: translateX(-50%);
 }
 
@@ -75,7 +75,7 @@ a {
 
 .brand img {
   display: block;
-  width: 88px;
+  width: 58px;
   height: auto;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.42));
 }
@@ -182,16 +182,16 @@ a {
 }
 
 .hero-content {
-  width: min(100%, 520px);
-  margin-top: 5.9rem;
+  width: min(100%, 560px);
+  margin-top: 5.35rem;
 }
 
 .eyebrow {
-  margin: 0 0 0.65rem;
+  margin: 0 0 0.55rem;
   color: var(--cyan);
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 900;
-  letter-spacing: 0;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -199,20 +199,20 @@ a {
 .discover h2 {
   margin: 0;
   color: var(--cyan);
-  font-size: clamp(3rem, 6vw, 4.85rem);
+  font-size: clamp(3.25rem, 6.1vw, 5.05rem);
   font-weight: 900;
-  letter-spacing: 0;
-  line-height: 0.92;
+  letter-spacing: -0.045em;
+  line-height: 0.9;
   text-transform: uppercase;
 }
 
 .hero-copy {
-  max-width: 500px;
-  margin: 1.05rem 0 1.35rem;
+  max-width: 510px;
+  margin: 0.9rem 0 1.15rem;
   color: #f5f8fb;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.92rem;
-  line-height: 1.48;
+  font-size: 0.76rem;
+  line-height: 1.55;
   text-shadow: 0 2px 18px rgba(0, 0, 0, 0.7);
 }
 
@@ -221,15 +221,15 @@ a {
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
-  min-width: 178px;
-  min-height: 40px;
-  padding: 0.7rem 1.25rem;
+  min-width: 168px;
+  min-height: 34px;
+  padding: 0.58rem 1rem;
   color: #fff;
   background: rgba(2, 8, 10, 0.36);
   border: 1px solid rgba(54, 225, 227, 0.82);
   border-radius: 2px;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   font-weight: 900;
   text-transform: uppercase;
   transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
@@ -243,18 +243,18 @@ a {
 
 .hero-index {
   position: absolute;
-  top: 35%;
+  top: 31%;
   right: max(1.5rem, calc((100vw - 1030px) / 2));
   display: grid;
-  gap: 1rem;
-  color: rgba(255, 255, 255, 0.42);
-  font-size: 1.1rem;
+  gap: 0.62rem;
+  color: rgba(255, 255, 255, 0.46);
+  font-size: 0.76rem;
   font-weight: 800;
 }
 
 .hero-index span {
   position: relative;
-  min-width: 5.8rem;
+  min-width: 4.5rem;
 }
 
 .hero-index .is-active {
@@ -265,7 +265,7 @@ a {
   position: absolute;
   top: 50%;
   right: 0;
-  width: 3.5rem;
+  width: 2.95rem;
   height: 2px;
   content: "";
   background: #fff;
@@ -275,8 +275,8 @@ a {
   align-self: end;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-top: 3.2rem;
+  gap: 1.6rem;
+  margin-top: 2.75rem;
   padding-top: 1.3rem;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -315,7 +315,7 @@ a {
   margin: 0;
   color: #fff;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.83rem;
+  font-size: 0.68rem;
   line-height: 1.55;
 }
 
@@ -330,29 +330,30 @@ a {
 }
 
 .tours {
-  padding: 4.1rem max(1.5rem, calc((100vw - 1030px) / 2)) 5.4rem;
+  padding: 4.4rem max(1.5rem, calc((100vw - 1030px) / 2)) 5.8rem;
   background: #010303;
   content-visibility: auto;
   contain-intrinsic-size: 680px;
 }
 
 .section-heading {
-  margin-bottom: 2.65rem;
+  margin-bottom: 2.85rem;
   text-align: center;
 }
 
 .section-heading h2 {
   margin: 0;
   color: #fff;
-  font-size: 1.02rem;
-  font-weight: 500;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.78rem;
+  font-weight: 400;
 }
 
 .tour-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
-  max-width: 880px;
+  max-width: 830px;
   margin: 0 auto;
 }
 
@@ -372,7 +373,7 @@ a {
 
 .tour-card {
   display: flex;
-  min-height: 292px;
+  min-height: 300px;
   align-items: end;
   justify-content: center;
   padding: 1.5rem;
@@ -402,17 +403,19 @@ a {
 }
 
 .tour-card h3 {
-  margin: 0 0 0.7rem;
+  margin: 0 0 0.42rem;
   color: #fff;
-  font-size: 1.12rem;
+  font-size: 0.9rem;
   font-weight: 900;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .tour-card p {
   margin: 0;
   color: #fff;
-  font-size: 0.82rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.62rem;
   line-height: 1.45;
 }
 
@@ -458,10 +461,10 @@ a {
 .discover {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(320px, 0.72fr) minmax(430px, 1fr);
-  gap: 3.2rem;
+  grid-template-columns: minmax(360px, 0.68fr) minmax(440px, 1fr);
+  gap: 2.7rem;
   min-height: 720px;
-  padding: 6.3rem max(1.5rem, calc((100vw - 1030px) / 2)) 5.4rem;
+  padding: 5.7rem max(1.5rem, calc((100vw - 1030px) / 2)) 5.1rem;
   overflow: hidden;
   content-visibility: auto;
   contain-intrinsic-size: 760px;
@@ -492,21 +495,22 @@ a {
 
 .discover-content {
   align-self: center;
-  max-width: 500px;
+  max-width: 560px;
 }
 
 .discover h2 {
   max-width: 560px;
-  font-size: clamp(3.05rem, 5.3vw, 4.95rem);
+  font-size: clamp(3.35rem, 5.7vw, 5.25rem);
+  letter-spacing: -0.05em;
 }
 
 .video-link {
   display: inline-flex;
   gap: 1rem;
   align-items: center;
-  margin: 2.1rem 0 2rem;
+  margin: 1.75rem 0 1.55rem;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -538,13 +542,13 @@ blockquote {
   margin: 0;
   color: #fff;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1rem;
-  line-height: 1.55;
+  font-size: 0.76rem;
+  line-height: 1.58;
 }
 
 cite {
   display: block;
-  margin-top: 0.9rem;
+  margin-top: 0.72rem;
   color: var(--cyan);
   font-style: normal;
 }
@@ -552,10 +556,10 @@ cite {
 .video-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(112px, 1fr));
-  grid-auto-rows: 118px;
-  gap: 1rem;
+  grid-auto-rows: 112px;
+  gap: 0.9rem;
   align-self: center;
-  margin-top: 5rem;
+  margin-top: 5.6rem;
 }
 
 .video-card {
